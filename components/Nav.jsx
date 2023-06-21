@@ -9,7 +9,7 @@ const Nav = () => {
 
   const isUserLoggedIn = true;
 
-  const [providers, setProvider ] = useState(null);
+  const [providers, setProviders ] = useState(null);
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   useEffect(() => {
